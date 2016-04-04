@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "orgin"]
+	url = git@github.com:mxw3077/gitrepo.git
+	fetch = +refs/heads/*:refs/remotes/orgin/*
+[remote "github"]
+	url = https://github.com/mxw3077/gitrepo.git
+	fetch = +refs/heads/*:refs/remotes/github/*
