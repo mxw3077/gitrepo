@@ -1,0 +1,7 @@
+---
+
+- hosts: all
+
+  tasks:
+   - name: Call report script
+     command: "/report1.sh"
